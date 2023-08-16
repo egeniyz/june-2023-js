@@ -59,10 +59,10 @@ console.log(typeof d)
 // роками. та вивести в консоль
 
 let fName = prompt(`name`);
-console.log('Yevhen')
+console.log(fName)
 
 let mName = prompt(`father name`);
-console.log('Anatoliyovich');
+console.log(mName);
 
-let age = prompt(`age`);
-console.log(38);
+let age = +prompt('age');
+console.log(age)
