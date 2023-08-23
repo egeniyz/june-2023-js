@@ -103,44 +103,14 @@ console.log(book3);
 // Перевірте  скрипт при a, що  дорівнює 1, 0, -3
 // ПЕРШИЙ СПОСІБ - НЕ ПРАЦЮЄ ПРИ А===0
 
-// let a = prompt('enter number')
-// if (a!=0) {
-//     console.log(true)
-// }
-// else if (a===0) {
-//     console.log(false)
-// }
-
-// ДРУГИЙ СПОСІБ - ПРАЦЮЄ, АЛЕ У МЕНЕ ТРИ РІЗНІ ЗМІННІ А
-
-// let a1 = 1
-// if (a1!=0) {
-//     console.log(true)
-// }
-// let a2 = 0
-// if (a2===0) {
-//     console.log(false)
-// }
-// let a3 = -3
-// if(a3) {
-//     console.log(true);
-// }
-
-// ТРЕТІЙ СПОСІБ НЕ ПРАЦЮЄ
-
-// let a = +prompt('enter number');
-// switch (a!=0) {
-//     case '1':
-//         console.log(true);
-//         break;
-//     case '0':
-//         console.log(false);
-//         break;
-//     case '-3':
-//         console.log(true);
-//         break
-// }
-
+let a = prompt('enter number')
+if (a!=0) {
+    console.log(true);
+}
+else (a===0)
+{
+    console.log(false)
+}
 
 
 
