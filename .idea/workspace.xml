@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ad70f0-002f-4329-978e-964831ac630d" name="Changes" comment="init lesson3">
+    <list default="true" id="b0ad70f0-002f-4329-978e-964831ac630d" name="Changes" comment="init lesson3_end">
+      <change afterPath="$PROJECT_DIR$/lesson4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/june-2023-js/lesson4/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +74,9 @@
       <workItem from="1692614238220" duration="7822000" />
       <workItem from="1692707224418" duration="613000" />
       <workItem from="1692787433829" duration="16178000" />
-      <workItem from="1692820839340" duration="1390000" />
+      <workItem from="1692820839340" duration="3505000" />
+      <workItem from="1692956809061" duration="874000" />
+      <workItem from="1693216527626" duration="6578000" />
     </task>
     <task id="LOCAL-00001" summary="init lesson1">
       <option name="closed" value="true" />
@@ -120,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692807412204</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init lesson3_end">
+      <option name="closed" value="true" />
+      <created>1692822325386</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692822325386</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +154,7 @@
     <MESSAGE value="init lesson1" />
     <MESSAGE value="init lesson2" />
     <MESSAGE value="init lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="init lesson3" />
+    <MESSAGE value="init lesson3_end" />
+    <option name="LAST_COMMIT_MESSAGE" value="init lesson3_end" />
   </component>
 </project>
