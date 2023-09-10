@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ad70f0-002f-4329-978e-964831ac630d" name="Changes" comment="init lesson3_end">
-      <change afterPath="$PROJECT_DIR$/lesson4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="b0ad70f0-002f-4329-978e-964831ac630d" name="Changes" comment="init lesson4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +71,7 @@
       <workItem from="1692787433829" duration="16178000" />
       <workItem from="1692820839340" duration="3505000" />
       <workItem from="1692956809061" duration="874000" />
-      <workItem from="1693216527626" duration="6578000" />
+      <workItem from="1693216527626" duration="6903000" />
     </task>
     <task id="LOCAL-00001" summary="init lesson1">
       <option name="closed" value="true" />
@@ -142,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692822325386</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="init lesson4">
+      <option name="closed" value="true" />
+      <created>1693233347332</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693233347332</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +158,7 @@
     <MESSAGE value="init lesson2" />
     <MESSAGE value="init lesson3" />
     <MESSAGE value="init lesson3_end" />
-    <option name="LAST_COMMIT_MESSAGE" value="init lesson3_end" />
+    <MESSAGE value="init lesson4" />
+    <option name="LAST_COMMIT_MESSAGE" value="init lesson4" />
   </component>
 </project>
