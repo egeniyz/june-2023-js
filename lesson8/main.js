@@ -9,58 +9,75 @@
 // console.log(user);
 
 // Другий спосіб
-function User(id, name, surname, email, phone) {
-    this.id = id;
-    this.name = name;
-    this.surname = surname;
-    this.email = email;
-    this.phone = phone
-}
-
-let user1 = new User(1, 'Olia', 'Kaz', 'ol@ukr.net', '068111')
-console.log(user1);
-let user2 = new User(2, 'Yulia', 'Bez', 'yul@ukr.net', '068222')
-console.log(user2);
-let user3 = new User(3, 'Lena', 'Ivlee', 'len@ukr.net', '068333')
-console.log(user3);
-let user4 = new User(4, 'Lida', 'Tit', 'lid@ukr.net', '068444')
-console.log(user4);
-let user5 = new User(5, 'Oksana', 'Tes', 'oks@ukr.net', '068555')
-console.log(user5);
-let user6 = new User(6, 'Lana', 'Ivano', 'lan@ukr.net', '068666')
-console.log(user6);
-let user7 = new User(7, 'Zheniya', 'Los', 'zh@ukr.net', '068777')
-console.log(user7);
-let user8 = new User(8, 'Nastiya', 'Buy', 'nas@ukr.net', '068888')
-console.log(user8);
-let user9 = new User(9, 'Yura', 'Tsvet', 'yur@ukr.net', '068999')
-console.log(user9);
-let user10 = new User(10, 'Alex', 'Sem', 'al@ukr.net', '068123')
-console.log(user10);
+// function User(id, name, surname, email, phone) {
+//     this.id = id;
+//     this.name = name;
+//     this.surname = surname;
+//     this.email = email;
+//     this.phone = phone
+// }
+//
+// let user1 = new User(1, 'Olia', 'Kaz', 'ol@ukr.net', '068111')
+// console.log(user1);
+// let user2 = new User(2, 'Yulia', 'Bez', 'yul@ukr.net', '068222')
+// console.log(user2);
+// let user3 = new User(3, 'Lena', 'Ivlee', 'len@ukr.net', '068333')
+// console.log(user3);
+// let user4 = new User(4, 'Lida', 'Tit', 'lid@ukr.net', '068444')
+// console.log(user4);
+// let user5 = new User(5, 'Oksana', 'Tes', 'oks@ukr.net', '068555')
+// console.log(user5);
+// let user6 = new User(6, 'Lana', 'Ivano', 'lan@ukr.net', '068666')
+// console.log(user6);
+// let user7 = new User(7, 'Zheniya', 'Los', 'zh@ukr.net', '068777')
+// console.log(user7);
+// let user8 = new User(8, 'Nastiya', 'Buy', 'nas@ukr.net', '068888')
+// console.log(user8);
+// let user9 = new User(9, 'Yura', 'Tsvet', 'yur@ukr.net', '068999')
+// console.log(user9);
+// let user10 = new User(10, 'Alex', 'Sem', 'al@ukr.net', '068123')
+// console.log(user10);
 
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
-let Array = [user1, user2, user3, user4, user5, user6, user7, user8, user9, user10]
-console.log(Array);
+
+// let Array = [user1, user2, user3, user4, user5, user6, user7, user8, user9, user10]
+// console.log(Array);
 
 
 // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 
-
-
-
-
+// let filterArray = Array.filter(function (value) {
+//     return value.id%2===0
+// })
+// console.log(filterArray)
 
 // - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
 
+//  Я відсортував навпаки, по зменшенню, бо у мене і так id по зростанню було
 
-
-
-
-
+// let sort = Array.sort((u1, u2) => {
+// return u2.id-u1.id
+// })
+// console.log(sort)
 
 
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
+
+class Client {
+    constructor(id, name, surname, email, phone, order) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.phone = phone;
+        this.order = order
+    }
+}
+let client = new Client(1, 'Yura', 'Tsvet', 'yur@ukr.net', '068111', ['tea', 'coffe'] )
+console.log(client)
+
 // створити пустий масив, наповнити його 10 об'єктами Client
+
 
 
 
