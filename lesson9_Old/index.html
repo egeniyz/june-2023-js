@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--// - створити блок,-->
+<!--//     - додати йому класи wrap, collapse, alpha, beta-->
+<!--// - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту-->
+<!--// - додати цей блок в body.-->
+<!--// - клонувати його повністю, та додати клон в body.-->
+
+<style>
+    .wrap {
+        width: 20%;
+        background-color: deepskyblue;
+        color: red;
+        font-size: 30px;
+    }
+</style>
+
+<div class= wrap>
+    <ul>
+        <li>Yulia</li>
+        <li>Oliya</li>
+        <li>Katiya</li>
+    </ul>
+</div>
+
+<ul class="Array">
+    <li>Main</li>
+    <li>Products</li>
+    <li>About us</li>
+    <li>Contacts</li>
+</ul>
+
+<script>
+    let block = document.getElementsByClassName('wrap')
+    console.log(block);
+    // додати цей блок в body
+    document.body.append.block
+    // клонувати його повністю, та додати клон в body. НЕ ПРАЦЮЄ!!!
+// document.body.append(block.cloneNode(true))
+
+    // - Є масив:
+    //     ['Main','Products','About us','Contacts']
+    // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
+
+    let Client = ['Main','Products','About us','Contacts']
+    let ul1 = document.createElement('ul')
+    let li1 = document.createElement('li')
+    document.body.append(ul1, li1, li1.cloneNode(true), li1.cloneNode(true),li1.cloneNode(true))
+
+
+
+</script>
+
+<script src="main.js"></script>
+</body>
+</html>

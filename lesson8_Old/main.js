@@ -73,12 +73,14 @@ class Client {
         this.order = order
     }
 }
-let client = new Client(1, 'Yura', 'Tsvet', 'yur@ukr.net', '068111', ['tea', 'coffe'] )
-console.log(client)
+let client1 = new Client(1, 'Yura', 'Tsvet', 'yur@ukr.net', '068111', ['tea', 'coffe'] )
+console.log(client1)
 
 // створити пустий масив, наповнити його 10 об'єктами Client
 
-
+let Array = []
+Array.push(client1)
+console.log(Array)
 
 
 

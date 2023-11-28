@@ -1,225 +1,167 @@
 // Масиви та об'єкти:
-
-
-
-
-
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-
-let forest = ['mashrum', 'berry', 'strawberry', 101, true, false, 'trees', 'animals', 5, -20]
-console.log('mashrum');
-console.log('berry');
-console.log('strawberry');
-console.log(101);
-console.log(true);
-console.log(forest[5]);
-console.log(forest[6]);
-console.log(forest[7]);
-console.log(forest[8]);
-console.log(forest[9]);
+let array = [10,11,12,13,14,'Kolya', true, null, undefined, 1]
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
+console.log(array[3]);
+console.log(array[4]);
+console.log(array[5]);
+console.log(array[6]);
+console.log(array[7]);
+console.log(array[8]);
+console.log(array[9]);
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+let book1 = {title: 'Volf', pageCount: 50, genre: 'adventure'}
+let book2 = {title: 'Holms', pageCount: 100, genre: 'detective'}
+let book3 = {title: 'Kotigoroshko', pageCount: 150, genre: 'cartuns'}
 
-let lib1 = {
-    title: 'first_title',
-    pageCount: 10,
-    genre: 'fantasy'}
-let lib2 = {
-    title: 'second_title',
-    pageCount: 10,
-    genre: 'adventure'
-}
-let lib3 =  {
-    title: 'third_title',
-    pageCount: 10,
-    genre: 'detektive'
-}
-
-
-// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" -
-// являється  масивом. Кожен автор має поля name та age.
-
-
-
-    let book1 = {
-
-    title: 'Sia_Volf',
-    pageCount: 105,
-    genre: 'adventures ',
-    authors: [{name: 'Jack London', age: 35}]
-    };
-console.log(book1);
-
-let book2 = {
-        title: '451',
-        pageCount: 90,
-        genre: 'fantasy',
-        authors: [{name: 'Ray Bradbery', age: 40}]
-    };
-console.log(book2);
-
-    let book3 = {
-    title: '451',
-    pageCount: 90,
-    genre: 'detective',
-    authors: [{name: 'Agata Kristi', age: 50}]
-};
-console.log(book3);
-
-
-// - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в
-// консоль пароль кожного користувача
-
+// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
+let book4 = {title: 'Volf', pageCount: 50, genre: 'adventure', authors: [{name: 'Konan', age: 40}] }
+let book5 = {title: 'Holms', pageCount: 100, genre: 'detective', authors: [{name: 'Varvar', age: 41}]}
+let book6 = {title: 'Kotigoroshko', pageCount: 150, genre: 'cartuns' , authors: [{name: 'Sheva', age: 42}]}
+// - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 // let users = [
-//     {name: 'Yura', username: 'yu', password: +prompt('enter pasword')},
-//     {name: 'Kolya', username: 'ko', password: prompt('enter pasword')},
-//     {name: 'Jeniya', username: 'je', password: prompt('enter pasword')},
-//     {name: 'Sergiy', username: 'se', password: prompt('enter pasword')},
-//     {name: 'Ira', username: 'ir', password: prompt('enter pasword')},
-//     {name: 'Yuliya', username: 'yul', password: prompt('enter pasword')},
-//     {name: 'Katiya', username: 'ka', password: prompt('enter pasword')},
-//     {name: 'Olesya', username: 'ol', password: prompt('enter pasword')},
-//     {name: 'Natasha', username: 'na', password: prompt('enter pasword')},
-//     {name: 'Marina', username: 'ma', password: prompt('enter pasword')}
-//
+//     {name: 'Yura', username: 'Yu', password: +prompt('enter your password') },
+// {name: 'Yura', username: 'Yu', password: +prompt('enter your password') },
+// {name: 'Yura', username: 'Yu', password: +prompt('enter your password') },
+// {name: 'Yura', username: 'Yu', password: +prompt('enter your password') },
+// {name: 'Yura', username: 'Yu', password: +prompt('enter your password') },
+// {name: 'Yura', username: 'Yu', password: +prompt('enter your password') },
+// {name: 'Yura', username: 'Yu', password: +prompt('enter your password') },
+// {name: 'Yura', username: 'Yu', password: +prompt('enter your password') }
 // ]
-// console.log(users)
 
 
 // Логічні розгалуження:
 //     - Є змінна х, якій ви надаєте довільне числове значення.
-//     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що
-//     дорівнює 1, 0, -3
+//     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
-
-// let x = 5
-// if (x!=0) {
-//     console.log(true)
-// }
-// else {
-//     console.log(false)
-// }
-
-// Перевірте  скрипт при a, що  дорівнює 1, 0, -3
-
-
-let a = prompt('enter number')
-if (a!=0) {
-    console.log(true);
+let x = 1;
+if (x !== 0) {
+    console.log('вірно')
 }
-else (a===0)
-{
-    console.log(false)
+else {
+    console.log('не вірно');
 }
 
+let x1 = 0
+if (x1 !== 0) {
+    console.log('вірно')
+}
+else {
+    console.log('не вірно');
+}
+
+let x2 = -3
+if (x2 !== 0) {
+    console.log('вірно')
+}
+else {
+    console.log('не вірно');
+}
 
 
-// - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години
-// попадає число
+
+
+// - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
 
-let time = 50;
-if(time<15) {
-    console.log('перша чверть')
-}
-if(time>15 && time<31) {
-    console.log('друга чверть')
-}
-if(time>30 && time<46) {
-    console.log('третя чверть')
-}
-if(time>45) {
-    console.log('четверта чверть')
-}
-
-
-
-
-// - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це
-// число (у першу, другу чи третю).
-
-// let day = 11;
-// if(day<11) {
-//     console.log('перша декада')
-// }
-// if(day<21 && day>10) {
-//     console.log('друга декада')
-// }
-// if(day<32 && day>20) {
-//     console.log('третя декада')
+// let time = prompt('enter number')
+// if (time >0 && time < 16) {
+//          console.log('first');}
+//    else if ( time > 15 && time<31) {
+//              console.log('second');}
+//    else if (time > 30 && time<46) {
+//              console.log('third');}
+//    else if(time > 45 && time<60) {
+//         console.log('fours');}
+//       else {
+//     console.log('error');
 // }
 
 
 
+// - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
+
+// let day = prompt('який день')
+//       if (day<11) {
+//           console.log('перша')
+//       }
+//       else if (day>10 && day < 21) {
+//           console.log('друга');
+//       }
+//       else if (day >20 && day < 32) {
+//           console.log('третя');
+//       }
+//       else if (day <1 || day > 31) {
+//           console.log('дичь') }
 
 
-// - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані
-// відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
-// let shed = prompt('enter your day') ;
-// switch (shed) {
+
+//   Як працює confirm
+// if (confirm('Вам больше 18')) {
+//     console.log('Можете смотреть фильм')}
+// else {
+//         console.log('Запрет');
+//     }
+
+
+// - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
+
+// let shedule = prompt('enter day of week')
+// switch (shedule) {
 //     case '1':
 //         console.log('monday');
 //         break;
-//         case '2':
+//     case '2':
 //         console.log('tuesday');
 //         break;
-//         case '3':
+//     case '3':
 //         console.log('wednesday');
 //         break;
-//         case '4':
+//     case '4':
 //         console.log('thursday');
 //         break;
-//         case '5':
+//     case '5':
 //         console.log('friday');
 //         break;
-//         case '6':
+//     case '6':
 //         console.log('saturday');
 //         break;
-//         case '7':
-//         console.log('sanday');
+//     case '7':
+//         console.log('sunday');
 //         break;
+//
 // }
-
-
-
 
 
 //     - Користувач вводить або має два числа.
 //         Потрібно знайти та вивести максимальне число з тих двох .
 //         Також потрібно врахувати коли введені рівні числа.
 
-let g = 5;
-let h = 10;
-
-if(g>h) {
-    console.log(g)
-}
-else if(g<h) {
-    console.log(h)
-}
-else if (g===h) {
-    console.log('дорівнює');
-}
+// let d = prompt('введіть d')
+// let c = prompt('введіть c')
+// if (d>c) {
+//     console.log(d);
+// }
+// else if (d===c) {
+//     console.log('d дорівнює c');
+// }
 
 
+    // - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
+    //     за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)
+
+let x3 = 0;
+if(x3===0 || x=== null || x=== '' || x === undefined) {
+    console.log(x3="default")
+} else console.log('x3 is true')
 
 
-
-    // - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно).
-// Напишіть код який,
-    //     за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється
-//     falsy (хибноподібні, тобто приводиться до false)
-
-let x = 0;
-if(x===0 || x=== null || x=== '' || x === undefined) {
-    console.log(x="default")
-} else console.log('x is true')
-
-
-//     - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф
-// перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в
-// консоль "Супер".
+// - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
 
 let coursesAndDurationArray = [
     {title: 'JavaScript Complex', monthDuration: 5},
@@ -230,21 +172,19 @@ let coursesAndDurationArray = [
     {title: 'Frontend', monthDuration: 4}
 ];
 
-if (coursesAndDurationArray[0].monthDuration> 5) {
+if (coursesAndDurationArray[0].monthDuration > 5) {
     console.log('Super');
 }
-    if (coursesAndDurationArray[1].monthDuration>5) {
-    console.log('Super');
+if (coursesAndDurationArray[1].monthDuration > 5) {
+    console.log('Super')
+}if (coursesAndDurationArray[2].monthDuration > 5) {
+    console.log('Super')
+}if (coursesAndDurationArray[3].monthDuration > 5) {
+    console.log('Super')
+}if (coursesAndDurationArray[4].monthDuration > 5) {
+    console.log('Super')
+}if (coursesAndDurationArray[5].monthDuration > 5) {
+    console.log('Super')
 }
-    if (coursesAndDurationArray[2].monthDuration>5) {
-    console.log('Super');
-}
-    if (coursesAndDurationArray[3].monthDuration>5) {
-    console.log('Super');
-}
-    if (coursesAndDurationArray[4].monthDuration>5) {
-    console.log('Super');
-}
-    if (coursesAndDurationArray[5].monthDuration>5) {
-    console.log('Super');
-}
+
+

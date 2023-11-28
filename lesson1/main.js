@@ -1,68 +1,57 @@
-<!-- - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua',-->
-<!--1, 10, -999, 123, 3.14, 2.7, 16, true, false.-->
-<!--Вивести кожну змінну за допомогою: console.log-->
-
-let h = 'hello';
-console.log(h)
-let o = 'owu';
-console.log(o)
-let c = 'com';
-console.log(c)
-let u = 'ua';
-console.log(u)
-let one = 1;
-console.log(one)
-let ten = 10;
-console.log(ten)
-let minus = -999;
-console.log(minus)
-let hundred = 123;
-console.log(hundred)
-const PI = 3.14;
-console.log(PI)
-let two = 2.7;
-console.log(two)
-let sixt = 16;
-console.log(sixt)
-let t = true;
-console.log(t)
-let f = false;
-console.log(f)
+// Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+//    Вивести кожну змінну за допомогою: console.log
+let s1 = 'hello'
+console.log(s1)
+let s2 = 'owu'
+console.log(s2);
+let s3 = 'com'
+console.log(s3);
+let s4 = 'ua'
+console.log(s4);
+let s5 = 1
+console.log(s5);
+let s6 = 10
+console.log(s6);
+let s7 = -999
+console.log(s7);
+let s8 = 123
+console.log(s8);
+let s9 = 3.14
+console.log(s9);
+let s10 = 2.7
+console.log(s10);
+let s11 = 16
+console.log(s11);
+let s12 = true
+console.log(s12);
+let s13 = false
+console.log(s13);
 
 
-// - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати
-// їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
-
-
+// Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
 let firstName = 'Yevhen'
 let middleName = 'Anatoliyovich'
 let lastName = 'Zabudskyi'
-let person = ` ${firstName} ${middleName} ${lastName} `
+let person = `${firstName} ${middleName} ${lastName}`
 console.log(person);
 
 
-//
-// - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
-//     let a = 100; let b = '100'; let d = true;
-
+//  За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+//    let a = 100; let b = '100'; let c = true;
 let a = 100;
-console.log(typeof a)
 let b = '100';
-console.log(typeof b)
-let d = true;
-console.log(typeof d)
+let c = true;
+console.log(typeof a)
+console.log(typeof b);
+console.log(typeof c);
 
 
-//
+
 // Додаткове для тих хто цікавився prompt`oм
-//  - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та
-// роками. та вивести в консоль
-
-let fName = prompt(`name`);
-console.log(fName)
-
-let mName = prompt(`father name`);
-console.log(mName);
-
-let age = +prompt('age');
-console.log(age)
+// За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
+let name = prompt('Євген')
+let  middN = prompt('Анатолійович')
+let age = prompt('39')
+console.log(name);
+console.log(middN);
+console.log(age);

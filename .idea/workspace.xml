@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ad70f0-002f-4329-978e-964831ac630d" name="Changes" comment="init lesson8">
+      <change afterPath="$PROJECT_DIR$/lesson10_Old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10_Old/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1_Old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1_Old/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2_Old/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3_Old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3_Old/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8_Old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9_Old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9_Old/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/june-2023-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sept-2023-js.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2_Old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4_Old/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4_Old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8_Old/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -35,12 +57,16 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Notification.DisplayName-DoNotAsk-Quokka Notifications&quot;: &quot;Quokka Notifications&quot;,
     &quot;Notification.DoNotAsk-Quokka Notifications&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Evgeniy/IdeaProjects/sept-2023-js&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -77,7 +103,18 @@
       <workItem from="1693216527626" duration="6903000" />
       <workItem from="1694371151410" duration="5890000" />
       <workItem from="1694424143874" duration="3140000" />
-      <workItem from="1694439396973" duration="669000" />
+      <workItem from="1694439396973" duration="1768000" />
+      <workItem from="1694547667991" duration="3705000" />
+      <workItem from="1694608832308" duration="9821000" />
+      <workItem from="1695037002683" duration="867000" />
+      <workItem from="1695908269546" duration="1202000" />
+      <workItem from="1696440106575" duration="453000" />
+      <workItem from="1700577613664" duration="152000" />
+      <workItem from="1700577965489" duration="4102000" />
+      <workItem from="1700751401674" duration="11845000" />
+      <workItem from="1701021508030" duration="704000" />
+      <workItem from="1701097782233" duration="3837000" />
+      <workItem from="1701175806140" duration="13552000" />
     </task>
     <task id="LOCAL-00001" summary="init lesson1">
       <option name="closed" value="true" />
@@ -183,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694377029949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="init lesson8">
+      <option name="closed" value="true" />
+      <created>1694448569660</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694448569660</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
